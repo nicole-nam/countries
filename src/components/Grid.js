@@ -1,13 +1,16 @@
 import React from "react";
 import Card from "./Card";
 
-function Grid({ isLoading, filter }) {
+function Grid({ isLoading, filterCountries, filterRegions }) {
   return isLoading ? (
     <h1 className="loading-message">loading...</h1>
   ) : (
     <div className="card-box">
-      {filter.map((item) => (
-        <Card key={item.name} item={item} />
+      {filterCountries.map((country) => (
+        <Card key={country.name} item={country} />
+      ))}
+      {filterRegions.map((country) => (
+        <Card key={country.name} item={country} />
       ))}
     </div>
   );

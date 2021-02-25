@@ -9,12 +9,11 @@ function App() {
   const [items, setItems] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [query, setQuery] = useState("");
-  console.log(items);
+  console.log(query);
 
   useEffect(() => {
     const fetchItems = async () => {
       const result = await axios(`https://restcountries.eu/rest/v2/all`);
-      console.log(result.data);
       setItems(result.data);
       setIsLoading(false);
     };
@@ -25,12 +24,20 @@ function App() {
     return item.name.toLowerCase().includes(query.toLowerCase());
   });
 
+  const filterRegions = items.filter((item) => {
+    return item.region.toLowerCase().includes(query.toLowerCase());
+  });
+
   return (
     <div className="App">
       <Header />
       <Search getQuery={(q) => setQuery(q)} />
-      <Select />
-      <Grid isLoading={isLoading} filter={filterCountries} />
+      <Select getQuery={(q) => setQuery(q)} />
+      <Grid
+        isLoading={isLoading}
+        filterCountries={filterCountries}
+        filterRegions={filterRegions}
+      />
     </div>
   );
 }
