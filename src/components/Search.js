@@ -16,7 +16,7 @@ function Search({ getQuery }) {
       <input
         type="text"
         className="input"
-        placeholder="Search..."
+        placeholder="Search for a country..."
         value={text}
         onChange={(e) => onChange(e.target.value)}
       ></input>
