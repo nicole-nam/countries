@@ -95,6 +95,7 @@ body {
 .card-item {
   height: 35rem;
   width: 25rem;
+  margin: 0 auto;
   border-radius: 1rem;
   justify-self: center;
   background-color: #fff;
@@ -166,7 +167,7 @@ body {
     justify-content: center;
   }
   .input:focus {
-    width:100%;
+    width: 100%;
   }
   .card-box {
     padding: 10rem;
