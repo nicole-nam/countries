@@ -76,6 +76,7 @@ body {
   grid-column: 9/10;
   align-self: center;
   justify-self: flex-end;
+  background-color: white;
 
   padding: 1.2rem 1.5rem 1.2rem 2rem;
   max-width: 20rem;
