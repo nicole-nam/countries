@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Countries App
 
 Countries App is built with REST Countries API to pull country data.
@@ -39,3 +40,6 @@ Please make sure to update tests as appropriate.
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+=======
+
+>>>>>>> 64b01f82fc5181483b75ac1fb0be924bb815802a
