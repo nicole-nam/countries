@@ -25,8 +25,6 @@ running at http://localhost:3000
 
 ## Usage
 
-```bash
 User is able to see all countries from the API and search for a
 country using input field. Filter countries by region and toggle
 color scheme between light and dark mode.
-```
