@@ -1,4 +1,4 @@
-# Countries App
+# Countries App | [live site](https://nicole-nam.github.io/countries/)
 
 ![alt text](https://nicole-nam.github.io/portfolio/images/project-img/countries-desktop.png)
 
