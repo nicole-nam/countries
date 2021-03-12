@@ -1,8 +1,8 @@
-# Countries App | [live site](https://nicole-nam.github.io/countries/)
+# Countries App
 
 ![alt text](https://nicole-nam.github.io/portfolio/images/project-img/countries-desktop.png)
 
-Countries App is built with REST Countries API to pull country data.
+Countries App is built with REST Countries API to pull country data. [live site](https://nicole-nam.github.io/countries/)
 
 ## Installation
 
